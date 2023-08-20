@@ -37,8 +37,8 @@ public class Main {
         catalogoLivros.adicionarLivro("Livro 6", "Autor 6", 1995);
 
 
-       // System.out.println(catalogoLivros.pesquisarPorAutor("Autor 2"));
-       // System.out.println(catalogoLivros.pesquisaPorIntervaloAnos(2020, 2023));
+        System.out.println(catalogoLivros.pesquisarPorAutor("Autor 2"));
+        System.out.println(catalogoLivros.pesquisaPorIntervaloAnos(2020, 2023));
         System.out.println(catalogoLivros.pesquisarPorTitulo("Livro 1"));
     }
 }

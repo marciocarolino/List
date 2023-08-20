@@ -28,10 +28,10 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "\nLivro{\n" +
+        return "Livro{" +
                 "titulo='" + titulo + '\'' +
-                ",\nautor='" + autor + '\'' +
-                ",\nanoPublicacao=" + anoPublicacao +
+                ",autor='" + autor + '\'' +
+                ",anoPublicacao=" + anoPublicacao +
                 '}';
     }
 }
