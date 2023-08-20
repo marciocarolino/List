@@ -25,20 +25,32 @@ public class Main {
 //        listaTarefas.obterDescricoesTarefas();
 
 
-        //Catalogo de Livros
+//        //Catalogo de Livros
+//
+//        CatalogoLivros catalogoLivros = new CatalogoLivros();
+//
+//        catalogoLivros.adicionarLivro("Livro 1", "Autor 1", 2020);
+//        catalogoLivros.adicionarLivro("Livro 1", "Autor 2", 2021);
+//        catalogoLivros.adicionarLivro("Livro 3", "Autor 2", 2022);
+//        catalogoLivros.adicionarLivro("Livro 4", "Autor 4", 2023);
+//        catalogoLivros.adicionarLivro("Livro 5", "Autor 5", 1994);
+//        catalogoLivros.adicionarLivro("Livro 6", "Autor 6", 1995);
+//
+//
+//        System.out.println(catalogoLivros.pesquisarPorAutor("Autor 2"));
+//        System.out.println(catalogoLivros.pesquisaPorIntervaloAnos(2020, 2023));
+//        System.out.println(catalogoLivros.pesquisarPorTitulo("Livro 1"));
 
-        CatalogoLivros catalogoLivros = new CatalogoLivros();
 
-        catalogoLivros.adicionarLivro("Livro 1", "Autor 1", 2020);
-        catalogoLivros.adicionarLivro("Livro 1", "Autor 2", 2021);
-        catalogoLivros.adicionarLivro("Livro 3", "Autor 2", 2022);
-        catalogoLivros.adicionarLivro("Livro 4", "Autor 4", 2023);
-        catalogoLivros.adicionarLivro("Livro 5", "Autor 5", 1994);
-        catalogoLivros.adicionarLivro("Livro 6", "Autor 6", 1995);
+        OrdenacaoPessoas ordenacaoPessoas = new OrdenacaoPessoas();
+        ordenacaoPessoas.adicionarPessoa("Nome 1", 20, 1.56);
+        ordenacaoPessoas.adicionarPessoa("Nome 2", 30, 1.80);
+        ordenacaoPessoas.adicionarPessoa("Nome 3", 25, 1.70);
+        ordenacaoPessoas.adicionarPessoa("Nome 4", 17, 1.56);
 
 
-        System.out.println(catalogoLivros.pesquisarPorAutor("Autor 2"));
-        System.out.println(catalogoLivros.pesquisaPorIntervaloAnos(2020, 2023));
-        System.out.println(catalogoLivros.pesquisarPorTitulo("Livro 1"));
+        System.out.println(ordenacaoPessoas.ordenarPorIdade());
+        System.out.println(ordenacaoPessoas.ordenarPorAltura());
+
     }
 }
